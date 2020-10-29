@@ -21,8 +21,8 @@
 
 --]]
 
-
-local base64 = {}
+local base64 = LibStub and LibStub:NewLibrary("base64", 1) or {}
+if not base64 then return end
 
 local extract = _G.bit32 and _G.bit32.extract
 if not extract then

@@ -1,0 +1,10 @@
+package-as: LibBase64
+
+externals:
+  Libs/LibStub: https://repos.wowace.com/wow/libstub/trunk
+
+ignore:
+  - README.md
+  - test.lua
+  - bench.lua
+  - rockspec
